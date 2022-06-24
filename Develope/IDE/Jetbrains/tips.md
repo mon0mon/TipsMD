@@ -18,3 +18,4 @@
 
 <img src="Image/ZZ_Ideavim_Work.gif" width="1200px"></img>
 > Now `zz` command properly center (option __ON__)
+

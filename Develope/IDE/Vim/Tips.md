@@ -94,3 +94,23 @@
     <img src="./Images/Insert_New_Line_Over.gif">
 
 [link](https://stackoverflow.com/questions/16134457/insert-a-newline-without-entering-in-insert-mode-vim)
+
+---
+
+## Autocomplete based on history
+
+- __(NOTE) In IdeaVim you need to map a command in .ideavimrc__
+
+```
+imap <C-n> <ESC>:action HippieCompletion<CR>a
+imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
+```
+
+- After setup simple use command to compelete code.
+
+```
+ctrl + n (HippieCompletion)
+ctrl + p (HippieBackwardCompletion)
+```
+
+[link](https://stackoverflow.com/questions/30149091/how-to-configure-in-ideavim-ctrl-n-and-ctrl-p-completion-from-vim)
