@@ -114,3 +114,19 @@ ctrl + p (HippieBackwardCompletion)
 ```
 
 [link](https://stackoverflow.com/questions/30149091/how-to-configure-in-ideavim-ctrl-n-and-ctrl-p-completion-from-vim)
+
+---
+
+## Searching keyword Case Insensitively
+
+- Simply add __\c__ to the keyword
+
+- Example (keyword : __int__)
+
+```
+/\cint
+```
+
+<img src="./Images/Search_CaseInsensitively.gif">
+
+[link](https://ohgyun.com/719)
