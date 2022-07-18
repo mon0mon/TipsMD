@@ -130,3 +130,27 @@ ctrl + p (HippieBackwardCompletion)
 <img src="./Images/Search_CaseInsensitively.gif">
 
 [link](https://ohgyun.com/719)
+
+## Automatic line center after line jump
+
+- __(NOTE) In IdeaVim you need to map a command in .ideavimrc__
+
+```
+; Center screen on next/previous selection.
+nnoremap n nzz
+nnoremap N Nzz
+; Last and next jump should center too.
+nnoremap <C-o> <C-o>zz
+nnoremap <C-i> <C-i>zzimap <C-n> <ESC>:action HippieCompletion<CR>a
+imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
+```
+
+- After setup simple use command
+
+```
+{Line Number}zz
+```
+
+<img src="./Images/AutoLineCenter_AfterLineMove.gif">
+
+[link](https://stackoverflow.com/questions/2372584/auto-zz-in-vim-after-a-jump)
