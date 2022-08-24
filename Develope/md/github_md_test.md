@@ -67,6 +67,9 @@ You can also use words, to fit your writing style more closely[^note].
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+
+
 [^1]: My reference.
 [^2]: Every new line should be prefixed with 2 spaces.  
   This allows you to have a footnote with multiple lines.

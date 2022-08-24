@@ -34,3 +34,28 @@
 > Disable ligatures
 
 <img src="Image/Editor_FontLigatures_Off.png">
+
+### 4. Variable Column Vertical Alignment
+
+```
+  int i = 0;
+  int Count = 0;
+  Node *List = NULL;
+  Node *Current = NULL;
+  Node *NewNode = NULL;
+```
+
+- You can align variable group vertical just by hitting align button (__Ctrl + Alt + L__)
+
+> Intellij
+- Settings - Editor - Code Style - Java - Wrapping and Braces - Group declarations - check __Align variables in columns__
+> Clion
+- Settings - Editor - Code Style - C/C++ - Wrapping and Braces - Variable groups - check __Align in columns__
+
+```
+  int  i        = 0;
+  int  Count    = 0;
+  Node *List    = NULL;
+  Node *Current = NULL;
+  Node *NewNode = NULL;
+```
