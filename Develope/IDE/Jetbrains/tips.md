@@ -59,3 +59,9 @@
   Node *Current = NULL;
   Node *NewNode = NULL;
 ```
+
+### 5. Wrapping Word
+
+- To wrap word use __\'Ctrl + Alt + T(Surround With)\'__
+
+![](./Image/WrappingWord_SurroundWith.gif)
