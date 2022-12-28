@@ -6,6 +6,8 @@
 
 - [Footnotes](#2-footnotes)
 
+- [Summary](#3-summary)
+
 ### 1) [Emphasis inside code block](#1-emphasis-inside-code-block)
 
 - try to use html tag like \<pre> instead of \`\`\`
@@ -24,3 +26,22 @@
 <a name="footnote_2">[2]</a> 「Python History」, Python Foundation
 
 <a name="footnote_3">[3]</a> 한국어 표기에 대해서는 귀도 반 로섬#표기 참고
+
+### 3) [Summary](#3-Summary)
+
+```html
+<details>
+<summary> Click Me! <summary>
+
+<span>WOW!</span>
+<details>
+```
+
+<details>
+<summary>자세한 설명</summary>
+
+<span>WOW!</span>
+</details>
+
+- Expander Control with HTML
+
