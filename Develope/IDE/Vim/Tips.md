@@ -154,3 +154,26 @@ imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
 <img src="./Images/AutoLineCenter_AfterLineMove.gif">
 
 [link](https://stackoverflow.com/questions/2372584/auto-zz-in-vim-after-a-jump)
+
+
+## Word Select than modify
+
+1) Select Word
+
+`viw`
+
+<img src="./Images/WordSelect_VIW.gif">
+
+2) Delete Word
+
+<img src="./Images/WordSelect_DAW.gif">
+
+3) Delete than Insert
+
+<img src="./Images/WordSelect_CAW.gif">
+
+## Replace Single Character
+
+`(Normal Mode) r`
+
+<img src="./Images/SingleCharacterChange_R.gif">
