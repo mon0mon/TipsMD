@@ -172,8 +172,14 @@ imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
 
 <img src="./Images/WordSelect_CAW.gif">
 
-## Replace Single Character
+## Modify single character
 
-`(Normal Mode) r`
+1)  Delete Character
 
-<img src="./Images/SingleCharacterChange_R.gif">
+`(Normal Mode) x`
+
+<img src="./Images/Modify single character_X.gif">
+
+`(Normal Mode) r(Enter key)`
+
+<img src="./Images/Modify single character_R.gif">
