@@ -66,3 +66,12 @@
 
 ![](./Image/WrappingWord_SurroundWith.gif)
 
+- Also work with HTML tag!
+
+![](./Image/WrappingWord_SurroundWithTag.gif)
+
+- It works vice versa (which means remove surround tag)
+
+![](./Image/Remove_Surround_Tag.gif)
+
+- [reference link](https://gemi.tistory.com/469)
