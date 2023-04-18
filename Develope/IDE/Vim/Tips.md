@@ -183,3 +183,40 @@ imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
 `(Normal Mode) r(Enter key)`
 
 <img src="./Images/Modify single character_R.gif">
+
+## Change case
+
+```
+~ (tilt)
+```
+
+![ChangeCase.gif](./Images/ChangeCase.gif)
+
+## Cursor Move
+
+1) Movement by Sentence
+
+![CursorMove_MovementBySentence_01.gif](./Images/CursorMove_MovementBySentence_01.gif)
+
+- Forward ```(```
+
+![CursorMove_MovementBySentence_02.gif](./Images/CursorMove_MovementBySentence_02.gif)
+
+- Backward ```)```
+
+2) Movement by Paragraph
+
+![CusorMove_MovementByParagraph_01](./Images/CursorMove_MovementByParagraph_01.gif)
+
+- Forward ```{```
+
+![CusorMove_MovementByParagraph_02](./Images/CursorMove_MovementByParagraph_02.gif)
+
+## Multitasking with Vim
+
+```bash
+Ctrl + Z
+fg
+```
+
+![MultitaskingWithVim](./Images/MultitaskingWithVim.gif)
