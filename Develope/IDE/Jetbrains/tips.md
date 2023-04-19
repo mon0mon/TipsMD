@@ -75,3 +75,14 @@
 ![](./Image/Remove_Surround_Tag.gif)
 
 - [reference link](https://gemi.tistory.com/469)
+
+
+### 6. Extract/Introduce Variable
+
+- Introduce Variable
+![](./Image/Refactor_ExtractIntroduceVariable.gif)
+
+- Extract Variable
+![](./Image/Refactor_ExtractIntroduceVariable_02.gif.gif)
+
+- [reference link](https://www.jetbrains.com/help/idea/extract-variable.html)
