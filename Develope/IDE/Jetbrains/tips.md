@@ -86,3 +86,14 @@
 ![](./Image/Refactor_ExtractIntroduceVariable_02.gif.gif)
 
 - [reference link](https://www.jetbrains.com/help/idea/extract-variable.html)
+
+
+---
+
+## Etc
+
+### 1. ❌ Disable / Uninstall plugin without launching Idea
+
+- Open FileExplorer than move to `C:\Users\{userName}\AppData\Roaming\JetBrains\{Idea}\plugins`
+
+- Remove the latest plugin that makes you crash
