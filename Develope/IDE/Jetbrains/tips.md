@@ -37,7 +37,7 @@
 
 ### 4. Variable Column Vertical Alignment
 
-```
+```cpp
   int i = 0;
   int Count = 0;
   Node *List = NULL;
@@ -62,7 +62,7 @@
 
 ### 5. Wrapping Word
 
-- To wrap word use __\'Ctrl + Alt + T(Surround With)\'__
+- To wrap word use ```Ctrl + Alt + T(Surround With)```
 
 ![](./Image/WrappingWord_SurroundWith.gif)
 
@@ -78,6 +78,8 @@
 
 
 ### 6. Extract/Introduce Variable
+
+- To Use ```Ctrl + Alt + V(Surround With)```
 
 - Introduce Variable
 ![](./Image/Refactor_ExtractIntroduceVariable.gif)
