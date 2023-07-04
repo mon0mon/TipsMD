@@ -6,7 +6,7 @@
 
 ```
 :{startline}, {endline}s/^/{commentType}
-````
+```
 
 <img src="./Images/CommentMultiline.gif">
 
@@ -48,28 +48,29 @@
 
 - To replace String in file, you can type
 
-    ```
-    :{Scope}/{String1}/{String2}/{Option}
-    ```
+  ```
+  :{Scope}/{String1}/{String2}/{Option}
+  ```
 
 - Usecase
-    1) Replcae all string in file
 
-    ```
-    :%s/{String1}/{String2}/g
-    ```
+  1. Replcae all string in file
 
-    2) Replcae all string in current line (which cursor loacte)
+  ```
+  :%s/{String1}/{String2}/g
+  ```
 
-    ```
-    :s/{String1}/{String2}/g
-    ```
+  2. Replcae all string in current line (which cursor loacte)
 
-    3) Replace all string from current line to end of file
+  ```
+  :s/{String1}/{String2}/g
+  ```
 
-    ```
-    :.,$s/{String1}/{String2}/g
-    ```
+  3. Replace all string from current line to end of file
+
+  ```
+  :.,$s/{String1}/{String2}/g
+  ```
 
 ---
 
@@ -77,19 +78,19 @@
 
 - map a new command
 
-    1) Insert new line under current cursor
+  1. Insert new line under current cursor
 
-    ```
-    nmap oo o<Esc>k
-    ```
+  ```
+  nmap oo o<Esc>k
+  ```
 
     <img src="./Images/Insert_New_Line_Under.gif">
 
-    2) Insert new line over current cursor
+  2. Insert new line over current cursor
 
-    ```
-    nmap OO O<Esc>j
-    ```
+  ```
+  nmap OO O<Esc>j
+  ```
 
     <img src="./Images/Insert_New_Line_Over.gif">
 
@@ -99,7 +100,7 @@
 
 ## Autocomplete based on history
 
-- __(NOTE) In IdeaVim you need to map a command in .ideavimrc__
+- **(NOTE) In IdeaVim you need to map a command in .ideavimrc**
 
 ```
 imap <C-n> <ESC>:action HippieCompletion<CR>a
@@ -119,9 +120,9 @@ ctrl + p (HippieBackwardCompletion)
 
 ## Searching keyword Case Insensitively
 
-- Simply add __\c__ to the keyword
+- Simply add **\c** to the keyword
 
-- Example (keyword : __int__)
+- Example (keyword : **int**)
 
 ```
 /\cint
@@ -133,7 +134,7 @@ ctrl + p (HippieBackwardCompletion)
 
 ## Automatic line center after line jump
 
-- __(NOTE) In IdeaVim you need to map a command in .ideavimrc__
+- **(NOTE) In IdeaVim you need to map a command in .ideavimrc**
 
 ```
 ; Center screen on next/previous selection.
@@ -155,26 +156,25 @@ imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
 
 [link](https://stackoverflow.com/questions/2372584/auto-zz-in-vim-after-a-jump)
 
-
 ## Word Select than modify
 
-1) Select Word
+1. Select Word
 
 `viw`
 
 <img src="./Images/WordSelect_VIW.gif">
 
-2) Delete Word
+2. Delete Word
 
 <img src="./Images/WordSelect_DAW.gif">
 
-3) Delete than Insert
+3. Delete than Insert
 
 <img src="./Images/WordSelect_CAW.gif">
 
 ## Modify single character
 
-1)  Delete Character
+1.  Delete Character
 
 `(Normal Mode) x`
 
@@ -194,21 +194,21 @@ imap <C-p> <ESC>:action HippieBackwardCompletion<CR>a
 
 ## Cursor Move
 
-1) Movement by Sentence
+1. Movement by Sentence
 
 ![CursorMove_MovementBySentence_01.gif](./Images/CursorMove_MovementBySentence_01.gif)
 
-- Forward ```(```
+- Forward `(`
 
 ![CursorMove_MovementBySentence_02.gif](./Images/CursorMove_MovementBySentence_02.gif)
 
-- Backward ```)```
+- Backward `)`
 
-2) Movement by Paragraph
+2. Movement by Paragraph
 
 ![CusorMove_MovementByParagraph_01](./Images/CursorMove_MovementByParagraph_01.gif)
 
-- Forward ```{```
+- Forward `{`
 
 ![CusorMove_MovementByParagraph_02](./Images/CursorMove_MovementByParagraph_02.gif)
 
@@ -220,3 +220,26 @@ fg
 ```
 
 ![MultitaskingWithVim](./Images/MultitaskingWithVim.gif)
+
+## Search copied keyword
+
+- `y` (yank selected text)
+- `/` (enter search mode)
+- `Ctrl + r` + `"` (insert text from `"` register)
+- `enter`
+
+![SearchCopiedKeyword](./Images/SearchCopiedKeyword.gif)
+
+[StackExchange](https://superuser.com/questions/41378/how-to-search-for-selected-text-in-vim)
+
+## Inc/Dec alphabet
+
+`:set nrformats+=alpha`
+
+or
+
+`set nrformats+=alpha` to `.vimrc`
+
+![IncDecAlphabet](./Images/IncDecAlphabet.gif)
+
+[Riptutorial](https://riptutorial.com/vim/example/8327/incrementing-and-decrementing-numbers-and-alphabetical-characters)

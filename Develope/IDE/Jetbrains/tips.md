@@ -115,6 +115,62 @@
 
 [Stack Overflow](https://stackoverflow.com/questions/14112623/is-there-a-shortcut-for-wrapping-a-statement-with-system-out-println-in-intellij)
 
+### 9. Live template auto import
+
+when you make new `Live Template` than auto import dosen't work properly
+
+For example if you have code something like this
+
+![LiveTemplate_AutoImport_01](./Image/Editor_LiveTempalteAutoImport_01.png)
+
+If you type in editor it would work like this
+
+![LiveTemplate_AutoImport_02](./Image/Editor_LiveTempalteAutoImport_02.gif)
+
+To fix this you need to enter `Full Qualified Class Name` to import
+
+To Change like this\
+(Don't forget to check `Shorten FQ names` for compact class name)
+
+![LiveTemplte_AutoImport_03](./Image/Editor_LiveTempalteAutoImport_03.png)
+
+There is another way to handle
+
+- Settings - Editor - General - Java
+- check `Add unambiguous imports on the fly`
+
+[Intellij Docs](https://www.jetbrains.com/help/idea/settings-live-templates.html)
+
+[Intellij Support](https://intellij-support.jetbrains.com/hc/en-us/community/posts/206630909-Auto-Import-Live-Template)
+
+[Tistroy](https://girawhale.tistory.com/22)
+
+### 10. Select Extend
+
+- press `Ctrl + w`
+
+![SelectExtend](./Image/Editor_SelectExtend.gif)
+
+### 11. Refactor introduce field
+
+- press `Ctrl + Alt + Shift + T`
+
+![RefactorIntroduceField](./Image/Editor_RefactorIntroduceField.gif)
+
+### 12. Custom Keyword Filter
+
+- Settings - Editor - TODO
+
+![CustomKeywordFilter_01](./Image/Editor_CustomKeywordFilter_01.png)
+
+- add `Patterns` first than add `Filters`
+
+![CustomKeywordFilter_02](./Image/Editor_CustomKeywordFilter_02.png)
+
+![CustomKeywordFilter_03](./Image/Editor_CustomKeywordFilter_03.png)
+
+[Intellij Docs](https://www.jetbrains.com/help/idea/using-todo.html#add_pattern_filter_todo)
+
 ## Debug
 
 ### 1. Break when Exception throws
