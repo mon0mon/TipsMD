@@ -171,6 +171,18 @@ There is another way to handle
 
 [Intellij Docs](https://www.jetbrains.com/help/idea/using-todo.html#add_pattern_filter_todo)
 
+### 13. Postfix Completion
+
+- Settings - Editor - General - Postfix Completion
+
+![PostfixCompletion_01](./Image/PostfixCompletion_01.png)
+
+![PostfixCompletion_02](./Image/PostfixCompletion_02.png)
+
+![PostfixCompletion_03](./Image/PostfixCompletion_03.png)
+
+![PostfixCompletion_04](./Image/PostfixCompletion_04.gif)
+
 ## Debug
 
 ### 1. Break when Exception throws
