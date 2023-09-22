@@ -243,3 +243,13 @@ or
 ![IncDecAlphabet](./Images/IncDecAlphabet.gif)
 
 [Riptutorial](https://riptutorial.com/vim/example/8327/incrementing-and-decrementing-numbers-and-alphabetical-characters)
+
+## Edit Readonly file (with `Sudo` Permission)
+
+`:w !sudo tee %`
+
+than press `L`
+
+![EditReadOnly](./Images/EditReadOnly.gif)
+
+[StackExchange](https://superuser.com/questions/694450/using-vim-to-force-edit-a-file-when-you-opened-without-permissions)
