@@ -253,3 +253,14 @@ than press `L`
 ![EditReadOnly](./Images/EditReadOnly.gif)
 
 [StackExchange](https://superuser.com/questions/694450/using-vim-to-force-edit-a-file-when-you-opened-without-permissions)
+
+## Cursor change depends on mode
+
+```
+set cursorline
+set nocursorline
+```
+
+- Put this options to `.vimrc`
+
+![CursorChangeDependsOnMode](./Images/CursorChangeDependsOnMode.gif)
