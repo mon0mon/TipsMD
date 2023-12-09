@@ -1,5 +1,27 @@
 # VIM Tips
 
+- [VIM Tips](#vim-tips)
+  - [Comment](#comment)
+  - [Uncomment](#uncomment)
+  - [Screen Move](#screen-move)
+  - [Replace Text](#replace-text)
+  - [Adding New Line without Insert mode](#adding-new-line-without-insert-mode)
+  - [Autocomplete based on history](#autocomplete-based-on-history)
+  - [Searching keyword Case Insensitively](#searching-keyword-case-insensitively)
+  - [Automatic line center after line jump](#automatic-line-center-after-line-jump)
+  - [Word Select than modify](#word-select-than-modify)
+  - [Modify single character](#modify-single-character)
+  - [Change case](#change-case)
+  - [Cursor Move](#cursor-move)
+  - [Multitasking with Vim](#multitasking-with-vim)
+  - [Search copied keyword](#search-copied-keyword)
+  - [Inc/Dec alphabet](#incdec-alphabet)
+  - [Edit Readonly file (with `Sudo` Permission)](#edit-readonly-file-with-sudo-permission)
+  - [Cursor change depends on mode](#cursor-change-depends-on-mode)
+  - [Move Around Tag](#move-around-tag)
+
+---
+
 ## Comment
 
 - To comment multiple line at once, you can type
@@ -264,3 +286,20 @@ set nocursorline
 - Put this options to `.vimrc`
 
 ![CursorChangeDependsOnMode](./Images/CursorChangeDependsOnMode.gif)
+
+## Move Around Tag
+
+1. Enter visual mode by pressing `v`
+2. Type following commands
+    - Use `it` to move inside tag 
+    - Use `at` to move outside tag
+3. Adjust cursor location by `o`
+   - Switch between `Begining` or `Closing`
+
+> Move Around Inner Tag   
+![MoveAroundTag_Inner](./Images/MoveAroundTag_Inner.gif)
+
+> Move Around Outside Tag
+![MoveAroundTag_Outter](./Images/MoveAroundTag_Outer.gif)
+
+[SuperUser](https://superuser.com/questions/189815/how-to-navigate-between-begin-and-end-html-tag-in-vim)
