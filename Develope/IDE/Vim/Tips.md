@@ -20,6 +20,7 @@
   - [Cursor change depends on mode](#cursor-change-depends-on-mode)
   - [Move Around Tag](#move-around-tag)
   - [Highlight Search Keyword](#highlight-search-keyword)
+  - [Repeat Character](#repeat-character)
 
 ---
 
@@ -327,3 +328,11 @@ set nocursorline
   ```
   nnoremap <ESC> :noh<CR>
   ```
+
+## Repeat Character
+
+```
+:norm {amount}[i|a]{ch}
+```
+
+![repeat character](Images/Repeat_Chracter.gif)
