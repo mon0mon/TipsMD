@@ -21,6 +21,7 @@
   - [Move Around Tag](#move-around-tag)
   - [Highlight Search Keyword](#highlight-search-keyword)
   - [Repeat Character](#repeat-character)
+  - [Preview Search Keyword](#preview-search-keyword)
 
 ---
 
@@ -336,3 +337,13 @@ set nocursorline
 ```
 
 ![repeat character](Images/Repeat_Chracter.gif)
+
+## Preview Search Keyword
+
+- add in .vimrc
+
+```
+set incsearch
+```
+
+![Preview Search Keyword](Images/Preview_Search_Keyword.gif)
