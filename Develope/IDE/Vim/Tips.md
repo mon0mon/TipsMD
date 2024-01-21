@@ -19,6 +19,7 @@
   - [Edit Readonly file (with `Sudo` Permission)](#edit-readonly-file-with-sudo-permission)
   - [Cursor change depends on mode](#cursor-change-depends-on-mode)
   - [Move Around Tag](#move-around-tag)
+  - [Highlight Search Keyword](#highlight-search-keyword)
 
 ---
 
@@ -303,3 +304,22 @@ set nocursorline
 ![MoveAroundTag_Outter](./Images/MoveAroundTag_Outer.gif)
 
 [SuperUser](https://superuser.com/questions/189815/how-to-navigate-between-begin-and-end-html-tag-in-vim)
+
+## Highlight Search Keyword
+
+1. For 1 time use
+   ```
+   :se hlsearch
+   ```
+2. .vimrc
+   ```
+   set hlsearch
+   ```
+
+- Before
+![Befre](Images/Search_Highlight_Before.gif)
+
+- After
+![Alt text](Images/Search_Highlight_After.gif)
+
+- use `:noh` to turn off the highlight
