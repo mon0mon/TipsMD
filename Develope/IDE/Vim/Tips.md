@@ -323,3 +323,7 @@ set nocursorline
 ![Alt text](Images/Search_Highlight_After.gif)
 
 - use `:noh` to turn off the highlight
+- or you can bind shortcut in .vimrc
+  ```
+  nnoremap <ESC> :noh<CR>
+  ```
