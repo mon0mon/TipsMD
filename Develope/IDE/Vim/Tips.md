@@ -335,6 +335,9 @@ set nocursorline
 ```
 :norm {amount}[i|a]{ch}
 ```
+```
+<insert_mode>{text}<ESC>{repeatAmout}.
+```
 
 ![repeat character](Images/Repeat_Chracter.gif)
 
