@@ -39,6 +39,13 @@
 :6,7s/^/#
 ```
 
+- Option 2
+```
+<visual_mode>{line select}: norm i{comment}
+```
+
+<img src="./Images/CommentMultiline2.gif">
+
 ## Uncomment
 
 - To Uncomment multiple line at once is vice versa
@@ -52,6 +59,13 @@
 ```
 :6,7s/^#/
 ```
+
+- Option 2
+```
+<visual_mode>{line select}: norm x{comment character count}
+```
+
+<img src="./Images/UncommentMultiline2.gif">
 
 [link](https://www.usessionbuddy.com/post/How-To-Comment-Out-And-UnComment-Multiple-Lines-At-Once-In-Vim-Editor/)
 
