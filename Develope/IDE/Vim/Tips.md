@@ -373,7 +373,7 @@ set nocursorline
 <insert_mode>{text}<ESC>{repeatAmout}.
 ```
 ```
-<ESC>{amount}[i|a]{ch}
+<ESC>{amount}[i|a]{ch}<ESC>
 ```
 
 ![repeat character](Images/Repeat_Chracter.gif)
