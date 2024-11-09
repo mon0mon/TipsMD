@@ -365,14 +365,20 @@ set nocursorline
 
 ## Repeat Character
 
+1. In Command Mode
 ```
 :norm {amount}[i|a]{ch}
 ```
 ```
 <insert_mode>{text}<ESC>{repeatAmout}.
 ```
+```
+<ESC>{amount}[i|a]{ch}
+```
 
 ![repeat character](Images/Repeat_Chracter.gif)
+
+[StackOverflow](https://stackoverflow.com/questions/5054128/repeating-characters-in-vim-insert-mode)
 
 ## Preview Search Keyword
 
