@@ -111,6 +111,25 @@
   :.,$s/{String1}/{String2}/g
   ```
 
+  4. Replace with Regex
+  ```
+  :%s/{Target Regex}/{Replace Regex}/g
+  ```
+
+  - If Regex Pattern not work than ensure use backslash `\`
+  - Regex Capturing Group is work fine
+  
+  | Replacing text using capturing group
+
+  ```
+  ex) Replacing all the '+[a-zA-Z]' to '+ [a-zA-z]'
+  :%s/\+([a-zA-Z])/+ \1/g
+  ```
+
+  ![alt text](Images/ReplaceTextWithRegex.gif.gif)
+
+  [link](https://stackoverflow.com/questions/19902089/vim-regex-capture-groups-bau-byau-ceu-cyeu)
+
 ---
 
 ## Adding New Line without Insert mode
