@@ -22,6 +22,7 @@
   - [Highlight Search Keyword](#highlight-search-keyword)
   - [Repeat Character](#repeat-character)
   - [Preview Search Keyword](#preview-search-keyword)
+  - [Move to Previous/Next Cursor Position](#move-to-previousnext-cursor-position)
 
 ---
 
@@ -389,3 +390,10 @@ set incsearch
 ```
 
 ![Preview Search Keyword](Images/Preview_Search_Keyword.gif)
+
+## Move to Previous/Next Cursor Position
+
+1. `Ctrl + o` : Move to Previous Cursor Position
+2. `Ctrl + i` : Move to Next Cursor Position
+
+![Move to Previous/Next Cursor Position](Images/Move_Previous_Next_Cursor_Position.gif)
