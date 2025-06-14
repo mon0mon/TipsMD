@@ -23,6 +23,7 @@
   - [Repeat Character](#repeat-character)
   - [Preview Search Keyword](#preview-search-keyword)
   - [Move to Previous/Next Cursor Position](#move-to-previousnext-cursor-position)
+  - [Increment/Decrement Number in line](#incrementdecrement-number-in-line)
 
 ---
 
@@ -397,3 +398,12 @@ set incsearch
 2. `Ctrl + i` : Move to Next Cursor Position
 
 ![Move to Previous/Next Cursor Position](Images/Move_Previous_Next_Cursor_Position.gif)
+
+## Increment/Decrement Number in line
+
+1. Select all numbers in line with `Visual Mode`
+2. `g + 'Ctrl + a'` to Increment all numbers
+3. `g + 'Ctrl + x'` to Decrement all numbers
+
+![Increment numbers](Images/Increment_All_Numbers_In_Line.gif)
+![Decrement numbers](Images/Decrement_All_Numbers_In_Line.gif)
